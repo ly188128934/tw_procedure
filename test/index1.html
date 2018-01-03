@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C/DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlms="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http·equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>ly</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+<now1>
+   <center><button type="button" onclick="show_output()">print time now 1</button></center>
+</now1>
+    <div id="output"></div>
+    <script type="text/javascript" src="/static/jquery-3.2.1.min.js"></script>
+    <script>
+        function show_output() {
+            url = 'http://10.20.71.250:8080/test'
+            $.get(url, function (resp) {
+                $('#output').html(resp);
+            })
+        }
+    </script>
+<div>
+    <center><button type="button" onclick="show_output()">print time now 2</button></center>
+</div>
+    <div id="output"></div>
+    <script type="text/javascript" src="/static/jquery-3.2.1.min.js"></script>
+    <script>
+        function show_output() {
+            url = 'http://10.20.71.250:8080/test'
+            $.get(url, function (resp) {
+                $('#output').html(resp);
+            })
+        }
+    </script>
+<div>
+    <center><button type="button" onclick="show_output()">print time now 3</button></center>
+</div>
+    <div id="output"></div>
+    <script type="text/javascript" src="/static/jquery-3.2.1.min.js"></script>
+    <script>
+        function show_output() {
+            url = 'http://10.20.71.250:8080/test'
+            $.get(url, function (resp) {
+                $('#output').html(resp);
+            })
+        }
+    </script>
+<div>
+    <center><button type="button" onclick="show_output()">print time now 4</button></center>
+</div>
+    <div id="output"></div>
+    <script type="text/javascript" src="/static/jquery-3.2.1.min.js"></script>
+    <script>
+        function show_output() {
+            url = 'http://10.20.71.250:8080/test'
+            $.get(url, function (resp) {
+                $('#output').html(resp);
+            })
+        }
+    </script>
+</html>
